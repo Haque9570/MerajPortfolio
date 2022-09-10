@@ -162,7 +162,7 @@ button {
 
 .header_wrapper .navbar-toggler {
     border: 0;
-    color: var(--gray-color);
+    color: var(--bg-white);
     line-height: 2;
 }
 
