@@ -19,18 +19,15 @@
     }
     .header_wrapper .menu-navbar-nav {
         text-align: center;
-        background-color: var(--bg-white);
+        background-color: #141414;
         opacity: 0.8;
         padding-bottom: 15px;
     }
     .header_wrapper .nav-item .nav-link {
         margin-top: 15px;
-        color: black;
+        color: #ffffff;
     }
     /* Banner wrapper */
-    .banner-wrapper {
-        padding: 200px 0;
-    }
     /* About */
     /* Portfolio */
 }
@@ -47,6 +44,17 @@
     p {
         font-size: 13px;
         line-height: 24px;
+    }
+    .banner_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        background-image: url('../images/background-imgMob2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 300px 0 100px 0;
     }
     /* About */
 }

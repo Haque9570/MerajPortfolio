@@ -19,7 +19,7 @@
     /* Background Color */
     --primary-color: #fd4766;
     --scondary-color: black;
-    --bg-dark-blue: #000912;
+    --bg-dark-blue: #000411;
     --bg-white: white;
     --gray-color: gray;
     --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, skyblue 100%);
@@ -208,9 +208,9 @@ button {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: black;
-    -webkit-box-shadow: 0 2px 4px 0 #32323260;
-    box-shadow: 0 2px 4px 0 #32323260;
+    background-color: var(--bg-dark-blue);
+    -webkit-box-shadow: 0 1px 12px 0 var(--primary-color);
+    box-shadow: 0 1px 12px 0 var(--primary-color);
 }
 
 .header_wrapper .nav-item .nav-link.active,
@@ -224,8 +224,53 @@ button {
 .banner_wrapper {
     width: 100%;
     height: auto;
-    min-height: 1000px;
+    min-height: 650px;
     background-image: url('../images/background-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0;
+}
+
+
+/* 4. About */
+
+.about_wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 650px;
+    background-image: url('../images/backgroun-img3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0;
+}
+
+
+/* 5. Portfolio */
+
+.portfolio_wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 650px;
+    background-image: url('../images/backgroun-img2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0;
+}
+
+
+/* 6. Contact */
+
+.contact_wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 650px;
+    background-image: url('../images/backgroun-img1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
