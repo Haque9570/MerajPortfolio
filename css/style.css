@@ -19,7 +19,7 @@
     /* Background Color */
     --primary-color: #fd4766;
     --scondary-color: black;
-    --bg-dark-blue: blue;
+    --bg-dark-blue: #000912;
     --bg-white: white;
     --gray-color: gray;
     --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, skyblue 100%);
@@ -156,7 +156,7 @@ button {
 }
 
 .header_wrapper .navbar-brand img {
-    max-width: 120px;
+    max-width: 100px;
     height: auto;
 }
 
@@ -178,7 +178,7 @@ button {
     position: relative;
     font-size: 16px;
     font-weight: 500;
-    color: var(--gray-color);
+    color: var(--text-white);
     display: inline-block;
 }
 
@@ -203,14 +203,14 @@ button {
     color: var(--bg-white);
 }
 
-.header_scrolled {
+.header-scrolled {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--bg-dark-blue);
-    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
-    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
+    background-color: black;
+    -webkit-box-shadow: 0 2px 4px 0 #ffffff92;
+    box-shadow: 0 2px 4px 0 #ffffff60;
 }
 
 .header_wrapper .nav-item .nav-link.active,
@@ -224,7 +224,7 @@ button {
 .banner_wrapper {
     width: 100%;
     height: auto;
-    min-height: 650px;
+    min-height: 1000px;
     background-image: url('/images/backgroun-img.png');
     background-repeat: no-repeat;
     background-position: center;

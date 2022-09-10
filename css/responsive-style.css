@@ -11,7 +11,26 @@
         font-size: 20px;
     }
     /* Navabar */
+    .header_wrapper .navbar {
+        padding: 5px 0;
+    }
+    .header-scrolled {
+        height: auto;
+    }
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-white);
+        opacity: 0.8;
+        padding-bottom: 15px;
+    }
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+        color: black;
+    }
     /* Banner wrapper */
+    .banner-wrapper {
+        padding: 200px 0;
+    }
     /* About */
     /* Portfolio */
 }
