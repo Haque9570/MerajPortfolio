@@ -162,7 +162,7 @@ button {
 
 .header_wrapper .navbar-toggler {
     border: 0;
-    color: var(--bg-white);
+    color: var(--primary-color);
     line-height: 2;
 }
 
@@ -211,6 +211,7 @@ button {
     background-color: var(--bg-dark-blue);
     -webkit-box-shadow: 0 1px 12px 0 var(--primary-color);
     box-shadow: 0 1px 12px 0 var(--primary-color);
+    opacity: 0.8;
 }
 
 .header_wrapper .nav-item .nav-link.active,
