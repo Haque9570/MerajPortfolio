@@ -54,7 +54,7 @@
     .portfolio_wrapper {
         width: 100%;
         height: auto;
-        min-height: 580px;
+        min-height: 480px;
         background-image: url('../images/bg3.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -89,19 +89,19 @@
     .banner_wrapper {
         width: 100%;
         height: auto;
-        min-height: 710px;
+        min-height: 550px;
         background-image: url('../images/1.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: scroll;
-        padding: 330px 0 0 0;
+        padding: 300px 0 50px 0;
     }
     /* About */
     .about_wrapper {
         width: 100%;
         height: auto;
-        min-height: 710px;
+        min-height: 550px;
         background-image: url('../images/2.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -112,7 +112,7 @@
     .portfolio_wrapper {
         width: 100%;
         height: auto;
-        min-height: 710px;
+        min-height: 550px;
         background-image: url('../images/3.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -123,7 +123,7 @@
     .contact_wrapper {
         width: 100%;
         height: auto;
-        min-height: 710px;
+        min-height: 550px;
         background-image: url('../images/4.png');
         background-repeat: no-repeat;
         background-position: center;
