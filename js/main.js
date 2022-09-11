@@ -9,7 +9,7 @@ window.onscroll = function() {
 }
 
 
-// nav hide
+//nav hide
 let navBar = document.querySelectorAll(".nav-link");
 let navCollapse = document.querySelector(".navbar-collapse.collapse");
 navBar.forEach(function(a) {
@@ -19,3 +19,14 @@ navBar.forEach(function(a) {
         })
 
 })
+
+/*
+const navbar = document.getElementById('.navbar');
+const collapse = document.getElementById('.collapse');
+document.onclick = function(e) {
+    if (e.target.id != 'navbar' && e.target.id != 'collapse') {
+        collapse.classList.remove('active');
+        navbar.classList.remove('active');
+    }
+}
+*/

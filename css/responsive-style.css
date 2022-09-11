@@ -28,68 +28,106 @@
         color: #ffffff;
     }
     /* Banner wrapper */
-    /* About */
-    /* Portfolio */
-}
-
-@media(max-width:767px) {
-    /* Custom css */
-    h1 {
-        font-size: 40px;
-        line-height: 48px;
-    }
-    h2 {
-        font-size: 25px;
-    }
-    p {
-        font-size: 13px;
-        line-height: 24px;
-    }
     .banner_wrapper {
         width: 100%;
         height: auto;
-        min-height: 200px;
-        background-image: url('../images/mobBg1.png');
+        min-height: 580px;
+        background-image: url('../images/bg1.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
-        padding: 280px 0 100px 0;
+        background-attachment: scroll;
+        padding: 200px 0 0 0;
     }
     /* About */
     .about_wrapper {
         width: 100%;
         height: auto;
-        min-height: 200px;
-        background-image: url('../images/mobBg2.png');
-        /*background-repeat: no-repeat;
+        min-height: 580px;
+        background-image: url('../images/bg2.png');
+        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
-        padding: 280px 0 100px 0;*/
+        background-attachment: scroll;
     }
     /* Portfolio */
     .portfolio_wrapper {
         width: 100%;
         height: auto;
-        min-height: 200px;
-        background-image: url('../images/mobBg3.png');
-        /*background-repeat: no-repeat;
+        min-height: 580px;
+        background-image: url('../images/bg3.png');
+        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
-        padding: 280px 0 100px 0;*/
+        background-attachment: scroll;
     }
     /* Contact */
     .contact_wrapper {
         width: 100%;
         height: auto;
-        min-height: 200px;
-        background-image: url('../images/mobBg4.png');
-        /*background-repeat: no-repeat;
+        min-height: 580px;
+        background-image: url('../images/bg4.png');
+        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
-        padding: 280px 0 100px 0;*/
+        background-attachment: scroll;
+    }
+}
+
+@media(max-width:449px) {
+    /* Custom css */
+    h1 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .banner_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 710px;
+        background-image: url('../images/1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 330px 0 0 0;
+    }
+    /* About */
+    .about_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 710px;
+        background-image: url('../images/2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    /* Portfolio */
+    .portfolio_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 710px;
+        background-image: url('../images/3.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    /* Contact */
+    .contact_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 710px;
+        background-image: url('../images/4.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
     }
 }
