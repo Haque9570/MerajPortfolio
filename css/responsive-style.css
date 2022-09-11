@@ -49,12 +49,47 @@
         width: 100%;
         height: auto;
         min-height: 200px;
-        background-image: url('../images/background-imgMob2.png');
+        background-image: url('../images/mobBg1.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        padding: 300px 0 100px 0;
+        padding: 280px 0 100px 0;
     }
     /* About */
+    .about_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        background-image: url('../images/mobBg2.png');
+        /*background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 280px 0 100px 0;*/
+    }
+    /* Portfolio */
+    .portfolio_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        background-image: url('../images/mobBg3.png');
+        /*background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 280px 0 100px 0;*/
+    }
+    /* Contact */
+    .contact_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        background-image: url('../images/mobBg4.png');
+        /*background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 280px 0 100px 0;*/
+    }
 }
